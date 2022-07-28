@@ -1,5 +1,5 @@
 import React from "react";
-import BuildingCard from './BuildingCard';
+import BuildingCard from '../Card/BuildingCard';
 
 const Popular = () => (
     <section className="popular">
