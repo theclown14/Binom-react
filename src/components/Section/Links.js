@@ -11,9 +11,9 @@ const Links = () => (
           <div className="links-cards__wrapper links-cards__wrapper_two">
             <Card />
             <li className="links-cards__item card_map">
-              <div className="links-cards__item__wrapper">
+              <div className="links-cards__item-wrapper">
                 <a href="#" className="links-cards__link">
-                  <h2 className="links-cards__item__title">Новостройки на карте</h2>
+                  <h2 className="links-cards__item-title">Новостройки на карте</h2>
                 </a>
                 <p className="links-cards__text">
                   Ищите новостройки рядом с парком, детским садом или работой
@@ -25,9 +25,9 @@ const Links = () => (
           </div>
           <div className="links-cards__wrapper links-cards__wrapper_three">
             <li className="links-cards__item card_developers">
-              <div className="links-cards__item__wrapper">
+              <div className="links-cards__item-wrapper">
                 <a href="#" className="links-cards__link">
-                  <h2 className="links-cards__item__title">Реестр застройщиков</h2>
+                  <h2 className="links-cards__item-title">Реестр застройщиков</h2>
                 </a>
                 <p className="links-cards__text">
                   Выберите жилье среди объектов надежных застройщиков
@@ -37,9 +37,9 @@ const Links = () => (
               <img src="img/builder.svg" alt="" className="links-cards__img" />
             </li>
             <li className="links-cards__item card_under-construction_list">
-              <div className="links-cards__item__wrapper">
+              <div className="links-cards__item-wrapper">
                 <a href="#" className="links-cards__link">
-                  <h2 className="links-cards__item__title">Строящиеся ЖК</h2>
+                  <h2 className="links-cards__item-title">Строящиеся ЖК</h2>
                 </a>
                 <ul className="cards-list">
                   <a href="#" className="cards-list__link">
@@ -67,9 +67,9 @@ const Links = () => (
               <img src="img/construction.svg" alt="" className="links-card__img" />
             </li>
             <li className="links-cards__item card_complited_list">
-              <div className="links-cards__item__wrapper">
+              <div className="links-cards__item-wrapper">
                 <a href="#" className="links-cards__link">
-                  <h2 className="links-cards__item__title">Сданные ЖК</h2>
+                  <h2 className="links-cards__item-title">Сданные ЖК</h2>
                 </a>
                 <ul className="cards-list">
                   <a href="#" className="cards-list__link">
