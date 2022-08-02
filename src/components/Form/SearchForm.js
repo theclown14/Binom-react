@@ -25,7 +25,7 @@ const menu = (
   );
 
 const SearchForm = () => (
-<div className="search-form__input__wrapper">
+<div className="search-form__inputs">
                         <input type="text" className="search-form__input" placeholder="Район, мкрн, метро или ЖК" />
                         <span className="search-form__separator">
                         </span>
@@ -68,6 +68,7 @@ const SearchForm = () => (
                             </Typography.Link>
                         </Dropdown>
                     </div>
+
 );
 
 export default SearchForm;

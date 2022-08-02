@@ -2,15 +2,15 @@ import React from "react";
 import CardList from "./CardList";
 
 const Card = () => (
-  <li className="links-cards__item card_new-home_list">
-    <div className="links-cards__item-wrapper">
-        <a href="#" className="links-cards-link">
-            <h2 className="links-cards__item-title">Подборки новостроек</h2>
+    <li class="links-card ">
+    <div class="links-card__wrapper">
+        <a href="#" class="links-card__link">
+            <h2 class="links-card__title">Подборки новостроек</h2>
         </a>
         <CardList />
-    </div>
-    <img src="img/mom.svg" alt="" className="links__card__img" />
-</li>
+        </div>
+        <img src="img/mom.svg" alt="" class="links-card__img" />
+    </li>
 );
 
 export default Card;
